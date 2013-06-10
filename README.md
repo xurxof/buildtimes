@@ -1,20 +1,24 @@
 buildtimes.py is a python script for calculate some statistic data on build times in Visual Studio.
 
-= Requirements =
- 
+Requirements
+------------
+
 This code has been run on Python 2.6.6
 
-= External Deps  =
+External Deps
+------------
  
-* matplotlib 0.99.3-1 (current in my Debian repo ) (http://matplotlib.org/downloads.html)
+* [matplotlib 0.99.3-1](http://matplotlib.org/downloads.html) (current in my Debian repo)
 
-* The data about build time can be collected with BuildMonitor (https://github.com/vinntreus/BuildMonitor), an add-on for Visual Studio.
+* The data about build time can be collected with [BuildMonitor](https://github.com/vinntreus/BuildMonitor), an add-on for Visual Studio.
  
-= Tests =
+Tests
+-----
  
 This was my first approach to the actual use of python, so no test code available.
 
-= Use ==
+Use
+---
 
 You must execute the program  in two steps. First time is for parse, aggregate and save the data. 
 
@@ -28,10 +32,12 @@ The first step create a file_name.pkl in same directory. The second step show th
     
 It will print some stats, and show a graph for per-day-of-week time consume.
    
-= License =
+License
+-------
  
 You can use this (messy) code as you wish, without restrictions of any kind.
 
-= Support =
+Support
+-------
  
 No support available. The code is provided as is, with no warranty.
